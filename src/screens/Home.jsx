@@ -1,6 +1,5 @@
 import React from "react";
 import Instagram from "../asset/instagram.svg";
-// import Dribble from "../asset/dribble.svg";
 import Linkedin from "../asset/linkedin.svg";
 import HERO from "../asset/hero.svg";
 import Button from "../asset/button.svg";
@@ -25,7 +24,7 @@ const Home = () => {
           <Link
             to={{
               pathname:
-                "https://drive.google.com/file/d/1A9ugSatJGms2jEbHyjc9aKRHpvNaEu4I/view?usp=sharing",
+                "https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing",
             }}
             target="_blank"
           >
@@ -41,12 +40,6 @@ const Home = () => {
         <div className="image-details">
           <img src={HERO} alt="" className="hero" />
           <div className="socials">
-            {/* <Link
-              to={{ pathname: "https://www.dribbble.com/ogenyi25" }}
-              target="_blank"
-            >
-              <img src={Dribble} alt="social-links" />
-            </Link> */}
             <Link
               to={{ pathname: "https://www.linkedin.com/in/ogenyi25" }}
               target="_blank"
@@ -59,12 +52,6 @@ const Home = () => {
             >
               <img className="instagram" src={Instagram} alt="social-links" />
             </Link>
-            {/* <Link
-              to={{ pathname: "https://www.behance.net/johnotor" }}
-              target="_blank"
-            >
-              <img src={Behance} alt="social-links" />
-            </Link> */}
           </div>
         </div>
       </div>
