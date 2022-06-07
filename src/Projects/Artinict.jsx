@@ -72,6 +72,9 @@ const Artinict = () => {
                             Click to see full project.{" "}
                         </Link>
                     </div>
+                    <div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
