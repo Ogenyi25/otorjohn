@@ -1,0 +1,224 @@
+.project-section {
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: $text-color;
+  .details {
+    padding: 150px 0 0 50px;
+    .title {
+      text-transform: uppercase;
+    }
+    .explain {
+      width: 50%;
+      margin-top: 20px;
+    }
+    .other-projects {
+      display: flex;
+      margin: 120px 0;
+      .project-cards {
+        flex: 1;
+        margin: auto;
+        width: 300px;
+        .card {
+          width: 300px;
+        }
+        .project-name {
+          font-weight: 600;
+        }
+        .project-description {
+          font-size: 14px;
+          width: 80%;
+        }
+        .prototype {
+          margin-top: 10px;
+          text-decoration: none !important;
+          Link {
+            text-decoration: none !important;
+            color: $ascent-color;
+          }
+        }
+      }
+    }
+    .projects {
+      display: flex;
+      margin: 120px 0;
+      .project-details {
+        display: flex;
+        margin: auto;
+        width: 65%;
+        .project-image {
+          flex: 1;
+          .image {
+            width: 280px;
+            cursor: pointer;
+          }
+        }
+        .project-content {
+          .head {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding-left: 15px;
+          }
+          .body {
+            margin: auto;
+            width: 90%;
+            padding-top: 5px;
+            font-size: 12px;
+          }
+          .tags {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 10px;
+            .tag {
+              padding: 3px 7px;
+              background-color: $ascent-light;
+              margin: 3px;
+              border-radius: 5px;
+              font-size: 10px;
+            }
+          }
+          .link {
+            text-decoration: none;
+            .button {
+              padding: 20px 0 0 15px;
+              font-size: 12px;
+              font-weight: bold;
+              color: $ascent-color;
+              cursor: pointer;
+              transition: 0.2s;
+              text-decoration: none;
+            }
+            .button:hover {
+              transition: 0.4s;
+              transform: translateY(-5px);
+            }
+          }
+        }
+      }
+      .keepfit {
+        margin-top: 20px;
+      }
+      .eduswift {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-section {
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: $text-color;
+    .details {
+      padding: 150px 0 30px 10px;
+      .title {
+        text-transform: uppercase;
+      }
+      .explain {
+        width: 90%;
+        margin-top: 20px;
+      }
+      .other-projects {
+        display: block;
+        margin: 120px 0;
+        .project-cards {
+          margin: auto;
+          width: 100%;
+          margin-bottom: 20px;
+          .card {
+            width: 90%;
+            margin-bottom: 20px;
+          }
+          .project-name {
+            font-weight: 600;
+          }
+          .project-description {
+            font-size: 14px;
+            width: 90%;
+          }
+          .prototype {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-decoration: none !important;
+            Link {
+              text-decoration: none !important;
+              color: $ascent-color;
+            }
+          }
+        }
+      }
+      .projects {
+        display: block;
+        margin: 120px 0;
+        .project-details {
+          display: block;
+          margin-bottom: 80px;
+          width: 90%;
+          .project-image {
+            flex: 0;
+            .image {
+              margin: auto;
+              width: 100%;
+              cursor: pointer;
+            }
+          }
+          .project-content {
+            margin: auto;
+            width: 100%;
+            padding-left: -50px;
+            .head {
+              margin-top: 20px;
+              font-size: 18px;
+              font-weight: 700;
+              text-transform: uppercase;
+              padding-left: 0;
+            }
+            .body {
+              margin: auto;
+              width: 100%;
+              padding-top: 5px;
+              font-size: 12px;
+            }
+            .tags {
+              display: flex;
+              flex-wrap: wrap;
+              padding-left: 0px;
+              .tag {
+                padding: 3px 7px;
+                background-color: $ascent-light;
+                margin: 3px;
+                border-radius: 5px;
+                font-size: 10px;
+              }
+            }
+            .link {
+              text-decoration: none;
+              .button {
+                padding: 20px 0 0 15px;
+                font-size: 12px;
+                font-weight: bold;
+                color: $ascent-color;
+                cursor: pointer;
+                transition: 0.2s;
+                text-decoration: none;
+              }
+              .button:hover {
+                transition: 0.4s;
+                transform: translateY(-5px);
+              }
+            }
+          }
+        }
+        .keepfit {
+          margin-top: 20px;
+        }
+        .eduswift {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

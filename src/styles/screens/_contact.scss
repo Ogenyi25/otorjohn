@@ -1,0 +1,112 @@
+.contact-section {
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: $text-color;
+  margin-bottom: 230px;
+  .details {
+    padding: 150px 0 0 50px;
+    .title {
+      text-transform: uppercase;
+    }
+    .contact-details {
+      display: flex;
+      margin-bottom: 50px;
+      .contact {
+        margin-top: 80px;
+        flex: 1;
+        .contact-mail {
+          font-size: 32px;
+          font-weight: 600;
+        }
+        .number {
+          margin-top: 10px;
+          span {
+            font-weight: 600;
+          }
+        }
+        .text {
+          font-size: 16px;
+          margin-top: 20px;
+          .emoji {
+            width: 15px;
+            margin-bottom: -3px;
+          }
+        }
+        .social-icons {
+          display: flex;
+          margin-top: 20px;
+          .social {
+            padding-right: 15px;
+            img {
+              width: 20px;
+            }
+            .instagram {
+              width: 25px;
+            }
+          }
+        }
+      }
+      .vector {
+        text-align: center;
+        flex: 1;
+        .contact-vector {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .contact-section {
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: $text-color;
+    margin-bottom: 160px;
+    .details {
+      padding: 150px 0 0 10px;
+      .title {
+        text-transform: uppercase;
+      }
+      .contact-details {
+        display: block;
+        margin-bottom: 50px;
+        .contact {
+          margin-top: 80px;
+          .contact-mail {
+            font-size: 24px;
+            font-weight: 800;
+          }
+          .text {
+            font-size: 14px;
+            margin-top: 20px;
+            .emoji {
+              width: 15px;
+              margin-bottom: -3px;
+            }
+          }
+          .social-icons {
+            display: flex;
+            margin-top: 20px;
+            .social {
+              padding-right: 15px;
+              img {
+                width: 20px;
+              }
+            }
+          }
+        }
+        .vector {
+          text-align: center;
+          margin-top: 100px;
+          .contact-vector {
+            width: 240px;
+          }
+        }
+      }
+    }
+  }
+}

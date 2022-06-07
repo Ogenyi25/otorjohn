@@ -1,0 +1,159 @@
+.landmark-section {
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: $text-color;
+  .details {
+    padding-top: 50px;
+    .header {
+      top: 0;
+      left: 0;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 70vh;
+      background-image: linear-gradient(to bottom, rgba(#09143C,0), rgba(#09143C,0.9)), 
+      url('../../asset/project/landmark.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      .contents {
+        width: 65%;
+        margin: auto;
+        color: #fff;
+        .title {
+          padding-top: 60px;
+          font-size: 40px;
+          font-weight: 700;
+        }
+        .caption1 {
+          text-transform: capitalize;
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+        .description {
+          font-size: 14px;
+          font-weight: 300;
+          width: 75%;
+          margin: auto;
+        }
+      }
+    }
+    .body-content {
+      margin: 5px auto;
+      width: 60%;
+      .body-header {
+        padding-top: 50px;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 20px;
+      }
+      .task {
+        margin-top: 30px;
+        .head {
+          text-transform: capitalize;
+          font-size: 16px;
+          font-weight: 600;
+        }
+        .body {
+          width: 65%;
+        }
+      }
+      .full-project {
+        margin-top: 30px;
+        .link {
+          text-decoration: none;
+          color: $ascent-color;
+          font-weight: 700;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .landmark-section {
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: $text-color;
+    .details {
+      width: 100%;
+      padding: 80px 0 30px 0;
+      .header {
+        width: 100%;
+        text-align: center;
+        height: 90vh;
+        background-image: linear-gradient(to bottom, rgba(#09143C,0), rgba(#09143C,0.9)), 
+        url('../../asset/project/landmark.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .contents {
+          width: 85%;
+          margin: auto;
+          color: rgb(40, 155, 175);
+          .title {
+            padding-top: 60px;
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 600;
+          }
+          .caption {
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: 400;
+            width: 100%;
+            font-weight: 500;
+            margin-top: 20px;
+          }
+          .description {
+            padding-top: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            width: 100%;
+            margin: auto;
+          }
+        }
+      }
+      .body-content {
+        margin: 0 0 20px 20px;
+        width: 80%;
+        .disclaimer {
+          margin-top: 100px;
+          font-size: 14px;
+          font-weight: 500;
+          width: 100%;
+        }
+        .body-header {
+          padding-top: 40px;
+          text-transform: uppercase;
+          font-weight: 300;
+          font-size: 20px;
+        }
+        .task {
+          margin: 25px 0;
+          .head {
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 600;
+            padding-bottom: 20px;
+          }
+          .body {
+            width: 100%;
+          }
+        }
+        .final-images {
+          display: none;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  
+}

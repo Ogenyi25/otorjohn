@@ -1,0 +1,28 @@
+.footer-section {
+    margin-top: 100px;
+    .footer-content {
+      text-align: center;
+      color: $text-color;
+      font-size: 14px;
+      .links {
+        color: $ascent-color;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 768px){
+    .footer-section {
+      margin-top: 150px;
+      .footer-content {
+        text-align: center;
+        color: $text-color;
+        font-size: 12px;
+        .links {
+          color: $ascent-color;
+          text-decoration: none;
+          font-weight: 500;
+        }
+      }
+    }
+  }

@@ -1,0 +1,123 @@
+div {
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      transition: 0.5s;
+      z-index: 10000;
+      background: transparent;
+      .logo {
+        position: relative;
+        flex: 1;
+        padding-top: 0px;
+        img {
+          width: 50px;
+          padding-left: 50px;
+          padding-top: 10px;
+        }
+      }
+      ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        li {
+          position: relative;
+          list-style: none;
+          .navlinks {
+            position: relative;
+            margin: 0 10px;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: 14px;
+            color: $text-color;
+            font-weight: 400;
+          }
+          .active-class {
+            color: $ascent-color !important;
+          }
+        }
+      }
+    }
+    .active {
+      background-color: #fff;
+      height: 60px;
+      ul {
+        li {
+          .active-class {
+            color: $text-color;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    
+    div {
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        transition: 0.5s;
+        z-index: 10000;
+        background: transparent;
+        .logo {
+          position: relative;
+          padding-top: 0;
+          img {
+            width: 30px;
+            padding-left: 10px;
+            padding-top: 15px;
+          }
+        }
+        ul {
+          position: absolute;
+          justify-content: left;
+          align-items: left;
+          margin-right: 25px;
+          margin-left: -35px;
+          li {
+            position: relative;
+            list-style: none;
+            display: flex;
+            margin-top: 80px;
+            .navlinks {
+              position: relative;
+              margin: 0 10px;
+              text-decoration: none;
+              letter-spacing: 1px;
+              font-size: 14px;
+              color: $text-color;
+              font-weight: 300;
+            }
+            .navlinks:hover {
+              color: #630808;
+            }
+            .active-class {
+              color: $ascent-color !important;
+            }
+          }
+        }
+      }
+      .active {
+        background-color: #fff;
+        height: 100px;
+        .logo {
+          margin-top: -10px;
+        }
+        ul {
+          margin-top: -30px;
+        }
+      }
+    }
+    
+  }
