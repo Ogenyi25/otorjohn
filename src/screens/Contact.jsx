@@ -1,9 +1,7 @@
 import React from "react";
 import VECTOR from '../asset/hero.svg';
 import EMOJI from '../asset/emoji.svg';
-import { Link }  from 'react-router-dom';
 import INSTAGRAM from "../asset/instagram.svg";
-import DRIBBLE from "../asset/dribble.svg";
 import LINKEDIN from "../asset/linkedin.svg";
 
 const Contact = () => {
@@ -19,9 +17,12 @@ const Contact = () => {
               Always down to collaborate. Reach out and let’s have a chat. <img src={EMOJI} alt="" className="emoji" />
             </div>
             <div className="social-icons">
-              <Link to={{pathname: "https://www.instagram.com/ui.uxotor"}} target="_blank" className="social"><img className="instagram" src={INSTAGRAM} alt="" /></Link>
-              <Link to={{pathname: "https://www.dribbble.com/ogenyi25"}} target="_blank" className="social"><img src={DRIBBLE} alt="" /></Link>
-              <Link to={{pathname: "https://www.linkedin.com/in/ogenyi25"}} target="_blank" className="social"><img src={LINKEDIN} alt="" /></Link>
+              <a href="https://www.instagram.com/ui.uxotor" rel="noreferrer" target="_blank" className="social">
+                <img src={INSTAGRAM} alt="" className="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/ogenyi25" rel="noreferrer" target="_blank" className="social">
+                <img src={LINKEDIN} alt="" />
+              </a>
             </div>
           </div>
           <div className="vector">

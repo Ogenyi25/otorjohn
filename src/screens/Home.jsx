@@ -4,8 +4,6 @@ import Linkedin from "../asset/linkedin.svg";
 import HERO from "../asset/hero.svg";
 import Button from "../asset/button.svg";
 
-import { Link } from "react-router-dom";
-
 const Home = () => {
   return (
     <div>
@@ -16,22 +14,17 @@ const Home = () => {
           <div className="description">
             I am a <span>Ui-Ux Designer</span>
             focusing on crafting user experiences and design systems for software, web, and mobile products.
-            I combine research, rapid prototyping, interaction, and visual design to transform complex problems into 
+            I combine research, rapid prototyping, interaction, and visual design to transform complex problems into
             elegant solutions. I'm passionate about applying consumer psychology for an interaction science-backed approach.
-            I'm about building and designing software products across financial institutes, productivity, health, education, 
+            I'm about building and designing software products across financial institutes, productivity, health, education,
             E-Commerce, and lots more. I am based in Abuja, Nigeria.
           </div>
-          <Link
-            to={{
-              pathname:
-                "https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing",
-            }}
-            target="_blank"
-          >
+
+          <a href="https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing" rel="noreferrer" target="_blank">
             <div className="button">
               <img src={Button} alt="" />
             </div>
-          </Link>
+          </a>
 
           <div className="quote">
             “As far as the customer is concerned, the interface is the product.”
@@ -40,18 +33,12 @@ const Home = () => {
         <div className="image-details">
           <img src={HERO} alt="" className="hero" />
           <div className="socials">
-            <Link
-              to={{ pathname: "https://www.linkedin.com/in/ogenyi25" }}
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/ogenyi25" rel="noreferrer" target="_blank">
               <img src={Linkedin} alt="social-links" />
-            </Link>
-            <Link
-              to={{ pathname: "https://www.instagram.com/ui.uxotor" }}
-              target="_blank"
-            >
+            </a>
+            <a href="https://www.instagram.com/ui.uxotor" rel="noreferrer" target="_blank">
               <img className="instagram" src={Instagram} alt="social-links" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
