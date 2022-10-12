@@ -1,20 +1,69 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import INVESTAHOLIC from '../asset/project/investaholic.png';
-import PERSONA from '../asset/project/blessing.png';
-import PERSONA2 from '../asset/project/michael.png';
-import DEFINE from '../asset/project/define.png';
-import USER_TASK from '../asset/project/usertask.png';
-import USER_FLOW from '../asset/project/userflow.png';
-import LOW_FI from '../asset/project/lowfi.png';
-import HI_FI from '../asset/project/hifi1.png';
-import HI_FI2 from '../asset/project/hifi2.png';
-import STYLES from '../asset/project/styles.png';
+import HEADER from '../asset/project/investaholic/header.png'
+import PROJECT_OVERVIEW from '../asset/project/investaholic/projectoverview.png'
+import PROBLEM_STATEMENT from '../asset/project/investaholic/problemstatement.png'
+import SOLUTION from '../asset/project/investaholic/solution.png'
+import DESIGN_PROCESS from '../asset/project/investaholic/designprocess.png'
+import USER_RESEARCH from '../asset/project/investaholic/userresearch.png'
+import PERSONA from '../asset/project/investaholic/persona.png'
+import USER_FLOW from '../asset/project/investaholic/userflow.png'
+import LOW_FI from '../asset/project/investaholic/lowfi.png'
+import HI_FI from '../asset/project/investaholic/hifi.png'
+import STYLE_GUIDE from '../asset/project/investaholic/styleguide.png'
+import FOOTER from '../asset/project/investaholic/footer.png'
+
+// import { Link } from 'react-router-dom';
+// import INVESTAHOLIC from '../asset/project/investaholic.png';
+// import PERSONA from '../asset/project/blessing.png';
+// import PERSONA2 from '../asset/project/michael.png';
+// import DEFINE from '../asset/project/define.png';
+// import USER_TASK from '../asset/project/usertask.png';
+// import USER_FLOW from '../asset/project/userflow.png';
+// import LOW_FI from '../asset/project/lowfi.png';
+// import HI_FI from '../asset/project/hifi1.png';
+// import HI_FI2 from '../asset/project/hifi2.png';
+// import STYLES from '../asset/project/styles.png';
 
 const Investaholic = () => {
     return (
         <div className="investaholic-section">
-            <div className="section-header">
+            <div className="section top">
+                <img src={HEADER} alt="" className="section-image" />
+            </div>
+            <div className="section footer">
+                <img src={PROJECT_OVERVIEW} alt="" className="section-image" />
+            </div>
+            <div className="section">
+                <img src={PROBLEM_STATEMENT} alt="" className="section-image" />
+            </div>
+            <div className="section">
+                <img src={SOLUTION} alt="" className="section-image" />
+            </div>
+            <div className="section">
+                <img src={DESIGN_PROCESS} alt="" className="section-image" />
+            </div>
+            <div className="section">
+                <img src={USER_RESEARCH} alt="" className="section-image" />
+            </div>
+            <div className="section">
+                <img src={PERSONA} alt="" className="section-image" />
+            </div>
+            <div className="section userflow">
+                <img src={USER_FLOW} alt="" className="section-image" />
+            </div>
+            <div className="section">
+                <img src={LOW_FI} alt="" className="section-image" />
+            </div>
+            <div className="section userflow">
+                <img src={HI_FI} alt="" className="section-image" />
+            </div>
+            <div className="section">
+                <img src={STYLE_GUIDE} alt="" className="section-image" />
+            </div>
+            <div className="section footer">
+                <img src={FOOTER} alt="" className="section-image" />
+            </div>
+            {/* <div className="section-header">
                 <div className="product-title">Investaholic</div>
                 <div className="product-description">A stock investment mobile application</div>
                 <img src={INVESTAHOLIC} alt="" className='banner-image' />
@@ -175,7 +224,7 @@ const Investaholic = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

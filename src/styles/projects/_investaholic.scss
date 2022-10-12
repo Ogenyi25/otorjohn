@@ -3,101 +3,22 @@
     top: 0;
     left: 0;
     color: $text-color;
-    .section-header {
+    .section {
         margin-top: 150px;
         text-align: center;
         justify-content: center;
         align-items: center;
-        .product-title {
-           font-size: 30px;
-           font-weight: 700;
-        }
-        .product-description {
-            padding: 10px;
-        }
-        .banner-image {
-            width: 100%;
-            height: 80%;
+        .section-image {
+           text-align: center;
         }
     }
-    .section-subheader {
-        width: 90%;
-        margin-left: 150px;
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 150px;
-        .mini-details {
-            flex: 1;
-            .head {
-                font-weight: 600;
-                padding-bottom: 10px;
-            }
-            .body {
-                font-weight: 300;
-            }
-        }
+    .userflow {
+        background-color: #F2ECE6;
+        width: 100%;
     }
-    .section-body {
-        margin: auto 10%;
-        .body-title {
-            text-transform: uppercase;
-            color: $ascent-color;
-            margin-bottom: 50px;
-        }
-        .body-contents {
-            margin-bottom: 100px;
-            .content {
-                display: flex;
-                margin-bottom: 35px;
-                width: 100%;
-                .content-title {
-                    flex: 1;
-                    font-weight: 500;
-                    font-size: 20px;
-                }
-                .content-body {
-                    flex: 2;
-                    max-width: 65%;
-                    font-weight: 300;
-                    .mini-head {
-                        font-weight: 600;
-                        margin-bottom: 10px;
-                    }
-                    .mini-body {
-    
-                    }
-                    .persona-image {
-                        margin-top: 30px;
-                        margin-bottom: 100px;
-                        width: 100%;
-                    }
-                    .define-image {
-                        margin-top: 30px;
-                        margin-bottom: 100px;
-                        width: 60%;
-                    }
-                    .userflow-image {
-                        margin-top: 30px;
-                        margin-bottom: 100px;
-                        width: 100%;
-                    }
-                    .lowfi-image {
-                        margin-top: 30px;
-                        margin-bottom: 100px;
-                        width: 100%;
-                    }
-                    .full-project {
-                        margin-top: 30px;
-                        .link {
-                          text-decoration: none;
-                          color: $ascent-color;
-                          font-weight: 700;
-                          font-size: 20px;
-                        }
-                    }
-                }
-            }
-        }
+    .footer {
+        background-color: #344955;
+        width: 100%;
     }
 }
 
@@ -110,110 +31,26 @@
         top: 0;
         left: 0;
         color: $text-color;
-        .section-header {
-            margin-top: 150px;
+        .section {
+            margin-top: 50px;
             text-align: center;
             justify-content: center;
             align-items: center;
-            .product-title {
-               font-size: 30px;
-               font-weight: 700;
-            }
-            .product-description {
-                padding: 10px;
-            }
-            .banner-image {
-                width: 100%;
-                height: 80%;
-            }
+            .section-image {
+                text-align: center;
+                width: 95%;
+             }
         }
-        .section-subheader {
+        .top {
+            margin-top: 150px;
+        }
+        .userflow {
+            background-color: #F2ECE6;
             width: 100%;
-            margin-left: 30px;
-            display: block;
-            margin-top: 20px;
-            margin-bottom: 150px;
-            .mini-details {
-                margin-bottom: 20px;
-                .head {
-                    font-weight: 600;
-                    padding-bottom: 1px;
-                }
-                .body {
-                    font-weight: 300;
-                }
-            }
         }
-        .section-body {
-            margin: 30px;
-            .body-title {
-                text-transform: uppercase;
-                color: $ascent-color;
-                margin-bottom: 50px;
-            }
-            .body-contents {
-                margin-bottom: 100px;
-                .content {
-                    display: block;
-                    margin-bottom: 35px;
-                    width: 100%;
-                    .content-title {
-                        font-weight: 500;
-                        font-size: 20px;
-                        margin-bottom: 20px;
-                    }
-                    .content-body {
-                        max-width: 100%;
-                        font-weight: 300;
-                        .persona-image {
-                            margin-top: 30px;
-                            margin-bottom: 100px;
-                            width: 100%;
-                        }
-                        .define-image {
-                            margin-top: 30px;
-                            margin-bottom: 100px;
-                            width: 90%;
-                        }
-                        .userflow-image {
-                            margin-top: 30px;
-                            margin-bottom: 100px;
-                            width: 100%;
-                        }
-                        .lowfi-image {
-                            margin-top: 30px;
-                            margin-bottom: 100px;
-                            width: 100%;
-                        }
-                        .link {
-                            text-decoration: none;
-                            .button {
-                              padding: 20px 0 0 15px;
-                              font-size: 12px;
-                              font-weight: bold;
-                              color: $ascent-color;
-                              cursor: pointer;
-                              transition: 0.2s;
-                              text-decoration: none;
-                            }
-                            .button:hover {
-                              transition: 0.4s;
-                              transform: translateY(-5px);
-                            }
-                        }
-                        .full-project {
-                            margin-top: 30px;
-                            .link {
-                              text-decoration: none;
-                              color: $ascent-color;
-                              font-weight: 700;
-                              font-size: 20px;
-                            }
-                          }
-                    }
-                    
-                }
-            }
+        .footer {
+            background-color: #344955;
+            width: 100%;
         }
     }
 }
