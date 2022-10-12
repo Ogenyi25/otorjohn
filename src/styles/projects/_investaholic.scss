@@ -3,6 +3,15 @@
     top: 0;
     left: 0;
     color: $text-color;
+    .goback {
+        margin-top: 150px;
+        margin-left: 150px;
+        .back {
+            .arrow {
+                width: 150px;
+            }
+        }
+    }
     .section {
         margin-top: 150px;
         text-align: center;
@@ -31,11 +40,22 @@
         top: 0;
         left: 0;
         color: $text-color;
+        .goback {
+            margin-top: 150px;
+            margin-left: 0px;
+            .back {
+                .arrow {
+                    width: 100px;
+                }
+            }
+        }
+        
         .section {
             margin-top: 50px;
             text-align: center;
             justify-content: center;
             align-items: center;
+            width: 100%;
             .section-image {
                 text-align: center;
                 width: 95%;

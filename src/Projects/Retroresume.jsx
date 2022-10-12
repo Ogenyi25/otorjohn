@@ -1,23 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import HEADER_IMAGE from '../asset/project/retroresumebg.png'
+import BACK_ARROW from '../asset/backarrow.svg'
 
 const Retroresume = () => {
     return (
         <div className="retroresume-section">
             <div className="details">
+            <div className="goback">
+                <Link className="back" to= "/projects"> <img src={BACK_ARROW} alt="back-arrow" className="arrow" />
+                </Link>
+            </div>
                 <div className="header">
-                    <div className="contents">
-                        <div className="title">Retro Resume Website / Webapp</div>
-                        <div className="caption1">
-                            Building the perfect resume to land you that dream job.
-                        </div>
-                        <div className="description">
-                            Retroresume is a resume builder application to help users crack the code for writing perfect resumes.
-                            Plus, it gives you a state-of-the art design to create a beautiful, professional job application resume.
-                            Whether this is your first job or you’re looking for a promotion, it will help you stand above the rest
-                            by highlighting your personality and achievements..
-                        </div>
-                    </div>
+                    <img src={HEADER_IMAGE} alt="" className="header-image" />
                 </div>
 
                 <div className="body-content">

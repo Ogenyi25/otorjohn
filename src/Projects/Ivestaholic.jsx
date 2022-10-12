@@ -11,22 +11,17 @@ import LOW_FI from '../asset/project/investaholic/lowfi.png'
 import HI_FI from '../asset/project/investaholic/hifi.png'
 import STYLE_GUIDE from '../asset/project/investaholic/styleguide.png'
 import FOOTER from '../asset/project/investaholic/footer.png'
+import { Link } from 'react-router-dom';
+import BACK_ARROW from '../asset/backarrow.svg'
 
-// import { Link } from 'react-router-dom';
-// import INVESTAHOLIC from '../asset/project/investaholic.png';
-// import PERSONA from '../asset/project/blessing.png';
-// import PERSONA2 from '../asset/project/michael.png';
-// import DEFINE from '../asset/project/define.png';
-// import USER_TASK from '../asset/project/usertask.png';
-// import USER_FLOW from '../asset/project/userflow.png';
-// import LOW_FI from '../asset/project/lowfi.png';
-// import HI_FI from '../asset/project/hifi1.png';
-// import HI_FI2 from '../asset/project/hifi2.png';
-// import STYLES from '../asset/project/styles.png';
 
 const Investaholic = () => {
     return (
         <div className="investaholic-section">
+            <div className="goback">
+                <Link className="back" to= "/projects"> <img src={BACK_ARROW} alt="back-arrow" className="arrow" />
+                </Link>
+            </div>
             <div className="section top">
                 <img src={HEADER} alt="" className="section-image" />
             </div>
