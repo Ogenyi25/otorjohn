@@ -5,7 +5,7 @@ import Projects from "./screens/Projects";
 import Contact from "./screens/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import NEITI from "./Projects/Neiti";
+import Ogalandlord from "./Projects/Ogalandlord";
 import MONEY from "./Projects/Money";
 import KEEPFIT from "./Projects/Fitness";
 import EDUSWIFT from "./Projects/Eduswift";
@@ -28,7 +28,7 @@ function App() {
             <Route path="/about" element= { <About/>} />
             <Route path="/projects" element= { <Projects/> } />
             <Route path="/contact" element= { <Contact/> } />
-            <Route path="/neiti" element= { <NEITI/> } />
+            <Route path="/ogalandlord" element= { <Ogalandlord/> } />
             <Route path="/money" element= { <MONEY/> } />
             <Route path="/keepfitt" element= { <KEEPFIT/> } />
             <Route path="/eduswift" element= { <EDUSWIFT/> } />

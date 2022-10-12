@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import INVESTIFY from "../asset/project/investify.png";
-import NEITI_IMAGE from "../asset/project/neiti.png";
+import OGALANDLORD from "../asset/project/ogalandlord/ogalandlord.png";
 // import EDUSWIFT from "../asset/project/Banner.png";
 import RETRORESUME from "../asset/project/retroresume.png";
 // import LANDMARK2 from "../asset/project/landmark2.png";
@@ -28,7 +28,7 @@ const Projects = () => {
               <div className="head">Investaholic</div>
               <div className="body">
                 Investaholic is a stock investment mobile application meant to help users invest in stocks with different companies.
-                It gives users the ability to make transactions (deposit or withdraw) see all transactions and also search for a 
+                It gives users the ability to make transactions (deposit or withdraw) see all transactions and also search for a
                 company of their choice to invest with.
               </div>
               <div className="tags">
@@ -44,7 +44,7 @@ const Projects = () => {
             </div>
           </div>
 
-          
+
           <div className="project-details">
             <div className="project-image">
               <img src={RETRORESUME} alt="" className="image" />
@@ -72,54 +72,6 @@ const Projects = () => {
 
         </div>
 
-
-        {/* <div className="projects">
-          <div className="project-details eduswift">
-            <div className="project-image">
-              <img src={EDUSWIFT} alt="" className="image" />
-            </div>
-            <div className="project-content">
-              <div className="head">RRIS</div>
-              <div className="body">
-                RRIS is the official school website for Royal Rainbow International School.
-                It showcases the About us, admission
-                procedure, media and events, podcast and a contact us page amongst other pages.
-              </div>
-              <div className="tags">
-                <div className="tag">UI Design</div>
-                <div className="tag">Website Design</div>
-                <div className="tag">WebApp</div>
-                <div className="tag">UX Design</div>
-                <div className="tag">Figma</div>
-              </div>
-              <Link className="link" to="/eduswift">
-                <div className="button">View project details</div>
-              </Link>
-            </div>
-          </div>
-
-          <div className="project-details">
-            <div className="project-image">
-              <img src={LANDMARK2} alt="" className="image" />
-            </div>
-            <div className="project-content">
-              <div className="head">Landmark Housings</div>
-              <div className="body">
-                Landmark Housings is a website for an imaginary Real Estate Company that sells houses all over the city.
-              </div>
-              <div className="tags">
-                <div className="tag">UI Design</div>
-                <div className="tag">Website</div>
-                <div className="tag">UX Design</div>
-                <div className="tag">Figma</div>
-              </div>
-              <Link className="link" to="/landmark">
-                <div className="button">View project details</div>
-              </Link>
-            </div>
-          </div>
-        </div> */}
-
         <div className="projects">
           <div className="project-details">
             <div className="project-image">
@@ -144,79 +96,30 @@ const Projects = () => {
           </div>
 
 
-          <div className="project-details">
+          <div className="project-details neiti">
             <div className="project-image">
-              <img src={NEITI_IMAGE} alt="" className="image" />
+              <img src={OGALANDLORD} alt="" className="image" />
             </div>
             <div className="project-content">
-              <div className="head">NEITI</div>
+              <div className="head">OGA-LANDLORD</div>
               <div className="body">
-                NEITI - Nigeria Extractive Industries Transparency Initiative. A
-                National standard for the good governance of oil, gas and
-                mineral resources.
+                Oga Landlord is a mobile application to help people search for and rent apartments in any location of their choice.
+                This helps remove the stress of physically going to scout for houses, it also take away the cost of agent fees..
               </div>
               <div className="tags">
                 <div className="tag">UI Design</div>
-                <div className="tag">Website Design</div>
+                <div className="tag">Apartments</div>
+                <div className="tag">Mobile App</div>
                 <div className="tag">UX Design</div>
+                <div className="tag">User Research</div>
                 <div className="tag">Figma</div>
               </div>
-              <Link className="link" to="/neiti">
+              <Link className="link" to="/ogalandlord">
                 <div className="button">View project details</div>
               </Link>
             </div>
           </div>
         </div>
-
-
-        {/* <div className="projects">
-          <div className="project-details eduswift">
-            <div className="project-image">
-              <img src={EDUSWIFT} alt="" className="image" />
-            </div>
-            <div className="project-content">
-              <div className="head">Artinict</div>
-              <div className="body">
-                This is the official website for Artinict - A tech base organization that provides Advanced and Innovative IT Solutions.
-                The website showcases the Home, About us, Services, Portfolio and Contact page.
-              </div>
-              <div className="tags">
-                <div className="tag">UI Design</div>
-                <div className="tag">Website Design</div>
-                <div className="tag">UX Design</div>
-                <div className="tag">Figma</div>
-              </div>
-              <Link className="link" to="/eduswift">
-                <div className="button">View project details</div>
-              </Link>
-            </div>
-          </div>
-
-          <div className="project-details">
-            <div className="project-image">
-              <img src={CHOOPIES} alt="" className="image" />
-            </div>
-            <div className="project-content">
-              <div className="head">choopies</div>
-              <div className="body">
-                Choopies is a mobile food delivery app meant to help users (customers)
-                place order of their favorite snack and have it delivered in a short while.
-                It features order tracking, fast in-app payment and lots more.
-              </div>
-              <div className="tags">
-                <div className="tag">UI Design</div>
-                <div className="tag">User Experience</div>
-                <div className="tag">UI-UX Design</div>
-                <div className="tag">MobileApp</div>
-                <div className="tag">UX Design</div>
-                <div className="tag">Figma</div>
-              </div>
-              <Link className="link" to="/choopies">
-                <div className="button">View project details</div>
-              </Link>
-            </div>
-          </div>
-        </div> */}
 
         <div className="title">other projects</div>
         <div className="explain">
@@ -232,11 +135,12 @@ const Projects = () => {
               This is a dark screen Nuemorphic mobile app design for a car brand (Benz-G63).
               It showcases a lock screen, a home page with icon links to other subpages for temperature, battery life, location, etc.
             </div>
-            <div className="prototype">Click <Link to={{
-              pathname:
-                "https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=265%3A7060&scaling=scale-down&page-id=264%3A6960&starting-point-node-id=279%3A8673",
-            }}
-              target="_blank">here</Link> to see the prototype for this design.
+
+            <div className="prototype">Click
+              <a href="https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=265%3A7060&scaling=scale-down&page-id=264%3A6960&starting-point-node-id=279%3A8673" rel="noreferrer" target="_blank">
+                here
+              </a>
+              to see the prototype for this design.
             </div>
           </div>
 
@@ -248,12 +152,14 @@ const Projects = () => {
               place order of their favorite snack and have it delivered in a short while.
               It features order tracking, fast in-app payment and lots more.
             </div>
-            <div className="prototype">Click <Link to={{
-              pathname:
-                "https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=37%3A76&scaling=scale-down&page-id=34%3A64&starting-point-node-id=64%3A615",
-            }}
-              target="_blank">here</Link> to see the prototype for this design.
+
+            <div className="prototype">Click
+              <a href="https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=37%3A76&scaling=scale-down&page-id=34%3A64&starting-point-node-id=64%3A615" rel="noreferrer" target="_blank">
+                here
+              </a>
+              to see the prototype for this design.
             </div>
+
           </div>
 
           <div className="project-cards">
@@ -263,12 +169,14 @@ const Projects = () => {
               The smart home app as the name implies is a smart home automation application designed in both light and dark theme.
               It showcases the different rooms and the applicances in them that can be remotely controlled.
             </div>
-            <div className="prototype">Click <Link to={{
-              pathname:
-                "https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=396%3A5504&scaling=scale-down&page-id=326%3A9051&starting-point-node-id=396%3A5556",
-            }}
-              target="_blank">here</Link> to see the prototype for this design.
+
+            <div className="prototype">Click
+              <a href="https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=396%3A5504&scaling=scale-down&page-id=326%3A9051&starting-point-node-id=396%3A5556" rel="noreferrer" target="_blank">
+                here
+              </a>
+              to see the prototype for this design.
             </div>
+
           </div>
         </div>
       </div>
