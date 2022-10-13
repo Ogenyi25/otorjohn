@@ -1,6 +1,8 @@
 import React from "react";
 import Instagram from "../asset/instagram.svg";
 import Linkedin from "../asset/linkedin.svg";
+import Behance from '../asset/behance.svg';
+import Twitter from '../asset/twitter.svg';
 import HERO from "../asset/hero.svg";
 import Button from "../asset/button.svg";
 
@@ -34,10 +36,16 @@ const Home = () => {
           <img src={HERO} alt="" className="hero" />
           <div className="socials">
             <a href="https://www.linkedin.com/in/ogenyi25" rel="noreferrer" target="_blank">
-              <img src={Linkedin} alt="social-links" />
+              <img className="icon" src={Linkedin} alt="social-links" />
             </a>
             <a href="https://www.instagram.com/ui.uxotor" rel="noreferrer" target="_blank">
-              <img className="instagram" src={Instagram} alt="social-links" />
+              <img className="icon" src={Instagram} alt="social-links" />
+            </a>
+            <a href="https://www.behance.net/johnotor" rel="noreferrer" target="_blank">
+              <img className="icon" src={Behance} alt="social-links" />
+            </a>
+            <a href="https://twitter.com/JohnOtor4" rel="noreferrer" target="_blank">
+              <img className="icon" src={Twitter} alt="social-links" />
             </a>
           </div>
         </div>

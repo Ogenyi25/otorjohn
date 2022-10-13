@@ -40,7 +40,7 @@
     }
     .socials {
       text-align: center;
-      margin: 10px 0 0 -150px;
+      margin: 10px 0 0 -180px;
       justify-content: center;
       align-items: center;
       
@@ -49,8 +49,9 @@
         cursor: pointer;
         width: 20px;
       }
-      .instagram {
+      .icon {
         width: 25px;
+        margin: 5px;
       }
     }
   }
@@ -95,14 +96,14 @@
         width: 280px;
       }
       .socials {
-        margin: 20px auto;
+        margin: 10px 0 0 -80px;
         justify-content: center;
         align-items: center;
         img {
           padding-left: 5px;
           cursor: pointer;
         }
-        .instagram {
+        .icon {
           width: 25px;
           margin-top: 15px;
         }
