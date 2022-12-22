@@ -14,14 +14,16 @@ const About = () => {
           <div className="content">
             I'm Otor John Stephen, a UI-UX designer who combines research, rapid
             prototyping, interaction and visual design to transform complex
-            problems into elegant solutions. Designing for two years in young,
+            problems into elegant solutions. Designing for 3 years in young,
             rapidly growing startups taught me how to balance business goals and
             engineering constraints as I unrelentingly advocated for the users.
             I'm passionate about building and designing software products across
             financial institute, productivity, health, education,
             E-Commerce, and lots more.
-            I have a well-rounded skill set in I.T with proficiencies in Figma, HTML,
-            CSS, JavaScript and React frame work. <br />
+            I have an excellent experience in prototyping, UI design, UX design, User
+            research, Web design, and wireframing, and I seek to deliver Ui-Ux
+            excellence for the betterment of any organization whose goal is to
+            attain excellence. <br />
             <strong>I love to sing and play video games</strong>
           </div>
         </div>
