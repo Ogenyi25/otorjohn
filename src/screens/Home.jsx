@@ -1,8 +1,8 @@
 import React from "react";
 import Instagram from "../asset/instagram.svg";
 import Linkedin from "../asset/linkedin.svg";
-import Behance from '../asset/behance.svg';
-import Twitter from '../asset/twitter.svg';
+import Behance from "../asset/behance.svg";
+import Twitter from "../asset/twitter.svg";
 import HERO from "../asset/hero.svg";
 import Button from "../asset/button.svg";
 
@@ -14,15 +14,23 @@ const Home = () => {
           <div className="hello">Hello, my name is</div>
           <div className="name">Otor John Stephen</div>
           <div className="description">
-            I am a <span>Ui-Ux Designer</span>
-            focusing on crafting user experiences and design systems for software, web, and mobile products.
-            I combine research, rapid prototyping, interaction, and visual design to transform complex problems into
-            elegant solutions. I'm passionate about applying consumer psychology for an interaction science-backed approach.
-            I'm about building and designing software products across financial institutes, productivity, health, education,
-            E-Commerce, and lots more. I am based in Abuja, Nigeria.
+            I am a <span>Creative and Enthusiastic UI UX Designer</span>I am a
+            with over 3 years of hands-on experience in crafting user
+            experiences and design systems for software, web, and mobile
+            products. I am eager to contribute to team success through hard
+            work, attention to detail, and, excellent organizational skills. I
+            am motivated to learn, grow and excel in the design Industry. I have
+            an excellent experience in prototyping, UI design, UX design, User
+            research, Web design, and wireframing. I seek to deliver Ui-Ux
+            excellence for the betterment of any organization whose goal is to
+            attain excellence.
           </div>
 
-          <a href="https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing" rel="noreferrer" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
             <div className="button">
               <img src={Button} alt="" />
             </div>
@@ -35,16 +43,32 @@ const Home = () => {
         <div className="image-details">
           <img src={HERO} alt="" className="hero" />
           <div className="socials">
-            <a href="https://www.linkedin.com/in/ogenyi25" rel="noreferrer" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/ogenyi25"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img className="icon" src={Linkedin} alt="social-links" />
             </a>
-            <a href="https://www.instagram.com/ui.uxotor" rel="noreferrer" target="_blank">
+            <a
+              href="https://www.instagram.com/ui.uxotor"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img className="icon" src={Instagram} alt="social-links" />
             </a>
-            <a href="https://www.behance.net/johnotor" rel="noreferrer" target="_blank">
+            <a
+              href="https://www.behance.net/johnotor"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img className="icon" src={Behance} alt="social-links" />
             </a>
-            <a href="https://twitter.com/JohnOtor4" rel="noreferrer" target="_blank">
+            <a
+              href="https://twitter.com/JohnOtor4"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img className="icon" src={Twitter} alt="social-links" />
             </a>
           </div>
