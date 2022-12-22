@@ -14,7 +14,7 @@ const Home = () => {
           <div className="hello">Hello, my name is</div>
           <div className="name">Otor John Stephen</div>
           <div className="description">
-            I am a <span>Creative and Enthusiastic UI UX Designer</span> with
+            I am a <span>Creative and Enthusiastic UI UX Designer </span> with
             over 3 years of hands-on experience in crafting user experiences and
             design systems for software, web, and mobile products. I am eager to
             contribute to team success through hard work, attention to detail,
