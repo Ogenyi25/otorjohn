@@ -3,6 +3,7 @@ import VECTOR from '../asset/hero.svg';
 import EMOJI from '../asset/emoji.svg';
 import INSTAGRAM from "../asset/instagram.svg";
 import LINKEDIN from "../asset/linkedin.svg";
+import TWITTER from "../asset/twitter.svg";
 
 const Contact = () => {
   return (
@@ -22,6 +23,9 @@ const Contact = () => {
               </a>
               <a href="https://www.linkedin.com/in/ogenyi25" rel="noreferrer" target="_blank" className="social">
                 <img src={LINKEDIN} alt="" />
+              </a>
+              <a href="https://twitter.com/uiuxotor" rel="noreferrer" target="_blank" className="social">
+                <img src={TWITTER} alt="" />
               </a>
             </div>
           </div>

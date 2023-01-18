@@ -64,7 +64,7 @@ const Home = () => {
               <img className="icon" src={Behance} alt="social-links" />
             </a>
             <a
-              href="https://twitter.com/JohnOtor4"
+              href="https://twitter.com/uiuxotor"
               rel="noreferrer"
               target="_blank"
             >
