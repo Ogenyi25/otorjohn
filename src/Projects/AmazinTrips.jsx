@@ -75,7 +75,7 @@ const AmazinTrips = () => {
           </div>
           <div className="full-project">
             <a
-              href="https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing"
+              href="https://www.figma.com/file/pRwFiCqHzwcSrFKvoOAmVf/AmazinTrips?node-id=16%3A201&t=ts3nCYogUj87nS0a-1"
               rel="noreferrer"
               target="_blank"
             >
