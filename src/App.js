@@ -12,6 +12,7 @@ import EDUSWIFT from "./Projects/Eduswift";
 import LandmarkHousing from "./Projects/LandmarkHousing";
 import Retroresume from "./Projects/Retroresume";
 import Investaholic from "./Projects/Ivestaholic";
+import AmazinTrips from "./Projects/AmazinTrips";
 import Artinict from "./Projects/Artinict";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
@@ -36,6 +37,7 @@ function App() {
             <Route path="/retroresume" element= { <Retroresume/> } />
             <Route path="/investaholic" element= { <Investaholic/> } />
             <Route path="/artinict" element= { <Artinict/> } />
+            <Route path="/amazintrips" element={ <AmazinTrips/> } />
           </Routes>
         </div>
         <Footer />

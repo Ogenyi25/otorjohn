@@ -44,7 +44,7 @@ const Projects = () => {
                 <div className="tag">WebApp</div>
                 <div className="tag">Travelling</div>
               </div>
-              <Link className="link" to="/investaholic">
+              <Link className="link" to="/amazintrips">
                 <div className="button">View project details</div>
               </Link>
             </div>
