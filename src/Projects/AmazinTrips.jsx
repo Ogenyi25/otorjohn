@@ -74,7 +74,14 @@ const AmazinTrips = () => {
             </div>
           </div>
           <div className="full-project">
-            <Link
+            <a
+              href="https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div className="button">View Full Project</div>
+            </a>
+            {/* <Link
               to={{
                 pathname:
                   "https://www.figma.com/file/pRwFiCqHzwcSrFKvoOAmVf/AmazinTrips?node-id=16%3A201&t=ts3nCYogUj87nS0a-1",
@@ -84,7 +91,7 @@ const AmazinTrips = () => {
             >
               {" "}
               Click to see full project.{" "}
-            </Link>
+            </Link> */}
           </div>
           <div></div>
         </div>
