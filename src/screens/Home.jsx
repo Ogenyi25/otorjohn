@@ -26,7 +26,7 @@ const Home = () => {
           </div>
 
           <a
-            href="https://drive.google.com/file/d/121jqhd0AgGj3Or0uNRHgmxJaimq_FqKV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1uIB7qjUhG0gcmcoF73xuzpoQlyPI-OGQ/view?usp=drive_link"
             rel="noreferrer"
             target="_blank"
           >
