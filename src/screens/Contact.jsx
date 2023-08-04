@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="title">contact me</div>
         <div className="contact-details">
           <div className="contact">
-            <div className="contact-mail">john@omniswift.com</div>
+            <div className="contact-mail">johnogenyi4real@gmail.com</div>
             <div className="number"><span>Whatsapp:</span> 09081046069, <span>Call:</span> 08134756623</div>
             <div className="text">
               Always down to collaborate. Reach out and let’s have a chat. <img src={EMOJI} alt="" className="emoji" />

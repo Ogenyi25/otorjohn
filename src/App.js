@@ -11,6 +11,7 @@ import KEEPFIT from "./Projects/Fitness";
 import EDUSWIFT from "./Projects/Eduswift";
 import LandmarkHousing from "./Projects/LandmarkHousing";
 import Retroresume from "./Projects/Retroresume";
+import SnackHaven from "./Projects/SnackHaven";
 import Investaholic from "./Projects/Ivestaholic";
 import AmazinTrips from "./Projects/AmazinTrips";
 import Artinict from "./Projects/Artinict";
@@ -35,6 +36,7 @@ function App() {
             <Route path="/eduswift" element= { <EDUSWIFT/> } />
             <Route path="/landmark" element= { <LandmarkHousing/> } />
             <Route path="/retroresume" element= { <Retroresume/> } />
+            <Route path="/snackhaven" element= { <SnackHaven/> } />
             <Route path="/investaholic" element= { <Investaholic/> } />
             <Route path="/artinict" element= { <Artinict/> } />
             <Route path="/amazintrips" element={ <AmazinTrips/> } />

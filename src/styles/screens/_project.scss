@@ -30,11 +30,20 @@
           width: 80%;
         }
         .prototype {
-          margin-top: 10px;
+          margin-top: 30px;
           text-decoration: none !important;
           Link {
             text-decoration: none !important;
             color: $ascent-color;
+          }
+          a {
+            padding: 10px 24px;
+            color: #fff;
+            text-decoration: none;
+            background-color: $ascent-color;
+            text-transform: capitalize;
+            font-weight: 600;
+
           }
         }
       }
@@ -43,13 +52,14 @@
       display: flex;
       margin: 120px 0;
       .project-details {
-        display: flex;
+        display: block;
         margin: auto;
         width: 65%;
         .project-image {
           flex: 1;
+          margin-bottom: 30px;
           .image {
-            width: 280px;
+            width: 300px;
             cursor: pointer;
           }
         }
@@ -61,15 +71,16 @@
             padding-left: 15px;
           }
           .body {
-            margin: auto;
-            width: 90%;
+            margin-left: 12px;
+            width: 80%;
             padding-top: 5px;
-            font-size: 12px;
+            font-size: 14px;
           }
           .tags {
             display: flex;
             flex-wrap: wrap;
             padding-left: 10px;
+            margin-top: 10px;
             .tag {
               padding: 3px 7px;
               background-color: $ascent-light;

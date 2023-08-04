@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import INVESTIFY from "../asset/project/investify.png";
+import SNACKHAVEN from "../asset/project/snackhaven thumbnail.png";
 import AMAZINTRIPS from "../asset/project/amazintrips.png";
-import OGALANDLORD from "../asset/project/ogalandlord/ogalandlord.png";
+import OGALANDLORD from "../asset/project/ogalandlord.png";
 // import EDUSWIFT from "../asset/project/Banner.png";
 import RETRORESUME from "../asset/project/retroresume.png";
 // import LANDMARK2 from "../asset/project/landmark2.png";
-import CHOOPIES from "../asset/project/choopies.png";
+// import CHOOPIES from "../asset/project/choopies.png";
+import HUMANR from "../asset/project/hrdashboard.png";
 import ARTINICT from "../asset/project/artinict.png";
 import SMART_HOME_APP from "../asset/project/smarthomeapp.svg";
 import NUEMORPHIC from "../asset/project/nuemorphic.svg";
+import RELIAERP from "../asset/project/reliaerp.png"
 // import { handlePreloader } from '../utilities/Index';
 
 const Projects = () => {
@@ -22,9 +24,11 @@ const Projects = () => {
         <div className="title">featured projects</div>
         <div className="projects">
           <div className="project-details">
-            <div className="project-image">
-              <img src={AMAZINTRIPS} alt="" className="image" />
-            </div>
+            <Link className="link" to="/amazintrips">
+              <div className="project-image">
+                <img src={AMAZINTRIPS} alt="" className="image" />
+              </div>
+            </Link>
             <div className="project-content">
               <div className="head">Amazin Trips</div>
               <div className="body">
@@ -50,34 +54,42 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* <div className="project-details">
-            <div className="project-image">
-              <img src={INVESTIFY} alt="" className="image" />
-            </div>
+          <div className="project-details">
+            <Link className="link" to="/snackhaven">
+              <div className="project-image">
+                <img src={SNACKHAVEN} alt="" className="image" />
+              </div>
+            </Link>
             <div className="project-content">
-              <div className="head">Investaholic</div>
+              <div className="head">SnackHaven</div>
               <div className="body">
-                Investaholic is a stock investment mobile application meant to help users invest in stocks with different companies.
-                It gives users the ability to make transactions (deposit or withdraw) see all transactions and also search for a
-                company of their choice to invest with.
+                SnackHaven is a mobile responsive e-commerce store for snacks.
+                It's meant to help users make order of their favorite snacks,
+                and try out new snack without leaving the comfort of their homes.
+                It offers seemless multiple payment means so users that have to encounter
+                difficulties in making payments.
               </div>
               <div className="tags">
                 <div className="tag">UI Design</div>
-                <div className="tag">Mobile App</div>
-                <div className="tag">Investment</div>
+                <div className="tag">Website</div>
+                <div className="tag">Food</div>
+                <div className="tag">Mobile Responsive</div>
                 <div className="tag">UX Design</div>
                 <div className="tag">Figma</div>
               </div>
-              <Link className="link" to="/investaholic">
+              <Link className="link" to="/snackhaven">
                 <div className="button">View project details</div>
               </Link>
             </div>
-          </div> */}
+          </div>
+
 
           <div className="project-details">
-            <div className="project-image">
-              <img src={RETRORESUME} alt="" className="image" />
-            </div>
+            <Link className="link" to="/retroresume">
+              <div className="project-image">
+                <img src={RETRORESUME} alt="" className="image" />
+              </div>
+            </Link>
             <div className="project-content">
               <div className="head">retroresume</div>
               <div className="body">
@@ -156,10 +168,7 @@ const Projects = () => {
 
         <div className="title">other projects</div>
         <div className="explain">
-          I've also created and prototyped other designs for different imaginary
-          products as a means of improving on my design skills and putting into
-          practice other design techniques and patterns. Some of these designs
-          include -:
+          Here are other design projects that i have been able to create.
         </div>
         <div className="other-projects">
           <div className="project-cards">
@@ -173,38 +182,33 @@ const Projects = () => {
             </div>
 
             <div className="prototype">
-              Click
               <a
                 href="https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=265%3A7060&scaling=scale-down&page-id=264%3A6960&starting-point-node-id=279%3A8673"
                 rel="noreferrer"
                 target="_blank"
               >
-                here
+                view design
               </a>
-              to see the prototype for this design.
             </div>
           </div>
 
+
           <div className="project-cards">
-            <img src={CHOOPIES} alt="" className="card" />
-            <div className="project-name">Choopies</div>
+            <img src={HUMANR} alt="" className="card" />
+            <div className="project-name">HR Management</div>
             <div className="project-description">
-              Choopies is a mobile food delivery app meant to help users
-              (customers) place order of their favorite snack and have it
-              delivered in a short while. It features order tracking, fast
-              in-app payment and lots more.
+              Human R. is a Human Resource (HR) Management System designed to
+              help the HR personnel of an organisation keep track of daily office activities.
             </div>
 
             <div className="prototype">
-              Click
               <a
-                href="https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=37%3A76&scaling=scale-down&page-id=34%3A64&starting-point-node-id=64%3A615"
+                href="https://www.figma.com/file/LOMuqHCdhPRkrvmaHOqivB/Mini-HR-Dashboard?type=design&node-id=9%3A56&mode=design&t=B9D7mDpze2kiuNpj-1"
                 rel="noreferrer"
                 target="_blank"
               >
-                here
+                View Design
               </a>
-              to see the prototype for this design.
             </div>
           </div>
 
@@ -219,15 +223,36 @@ const Projects = () => {
             </div>
 
             <div className="prototype">
-              Click
               <a
                 href="https://www.figma.com/proto/eOYas8heyU5jXVXAwPE6Dm/February-Projects?node-id=396%3A5504&scaling=scale-down&page-id=326%3A9051&starting-point-node-id=396%3A5556"
                 rel="noreferrer"
                 target="_blank"
               >
-                here
+                view design
               </a>
-              to see the prototype for this design.
+            </div>
+          </div>
+        </div>
+
+
+        <div className="other-projects">
+          <div className="project-cards">
+            <img src={RELIAERP} alt="" className="card" />
+            <div className="project-name">Relia ERP</div>
+            <div className="project-description">
+              Relia ERP is an Enterprise Resource Planning (ERP) 
+              System that was designed to help the organization carryout and keep track 
+              of all project information, financial records, and other managerial activities.
+            </div>
+
+            <div className="prototype">
+              <a
+                href="https://www.figma.com/file/SHi4N9kpOGwfB2Ly7j9zKD/Relia-Energy-Projects?type=design&node-id=18%3A5&mode=design&t=o7jb3DhPQSnorgmn-1"
+                rel="noreferrer"
+                target="_blank"
+              >
+                view design
+              </a>
             </div>
           </div>
         </div>

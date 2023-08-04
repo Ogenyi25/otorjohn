@@ -1,0 +1,186 @@
+.amazintrips-section {
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: $text-color;
+
+    .details {
+        padding-top: 50px;
+
+        .goback {
+            margin-top: 150px;
+            margin-left: 150px;
+
+            .back {
+                .arrow {
+                    width: 150px;
+                }
+            }
+        }
+
+        .header {
+            top: 0;
+            left: 0;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .body-content {
+            margin: 5px auto;
+            width: 60%;
+
+            .body-header {
+                padding-top: 50px;
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 20px;
+            }
+
+            .task {
+                margin-top: 30px;
+
+                .head {
+                    text-transform: capitalize;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .body {
+                    width: 65%;
+                    margin-bottom: 40px;
+                    .design {
+                        margin-top: 40px;
+                        .designprocess {
+                            .designprocess-image {
+                                margin: auto;
+                                width: 500px;
+                            }
+                        }
+                        .persona {
+                            margin-top: 20px;
+                        }
+                        .persona-image {
+                            margin: 50px 0;
+                            width: 700px;
+                        }
+
+                    }
+                }
+                .style {
+                    display: flex;
+                    margin-top: 20px;
+                    .style-image {
+                        flex: 1;
+                    }
+                }
+            }
+
+            .full-project {
+                margin-top: 30px;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 20px;
+
+                    .button {
+                        padding: 15px 25px;
+                        outline: none;
+                        border: none;
+                        border-radius: 15px;
+                        background-color: $ascent-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .amazintrips-section {
+        width: 100%;
+        top: 0;
+        left: 0;
+        color: $text-color;
+
+        .details {
+            width: 100%;
+            padding: 80px 0 30px 0;
+
+            .goback {
+                margin-top: 100px;
+                margin-left: 0px;
+
+                .back {
+                    .arrow {
+                        width: 100px;
+                    }
+                }
+            }
+
+            .header {
+                width: 100%;
+                text-align: center;
+
+                .header-image {
+                    width: 100%;
+                    margin-top: 100px;
+                }
+            }
+
+            .body-content {
+                margin: 0 0 20px 20px;
+                width: 90%;
+
+                .body-header {
+                    padding-top: 40px;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    font-size: 16px;
+                }
+
+                .task {
+                    margin: 25px 0;
+
+                    .head {
+                        text-transform: capitalize;
+                        font-size: 14px;
+                        font-weight: 600;
+                        padding-bottom: 20px;
+                    }
+
+                    .body {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
+
+                .full-project {
+                    margin-top: 30px;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-weight: 700;
+                        font-size: 20px;
+
+                        .button {
+                            padding: 15px 25px;
+                            outline: none;
+                            border: none;
+                            border-radius: 15px;
+                            background-color: $ascent-color;
+                        }
+                    }
+                }
+
+                .final-images {
+                    display: none;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
