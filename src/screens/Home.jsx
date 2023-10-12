@@ -43,7 +43,7 @@ const Home = () => {
           <img src={HERO} alt="" className="hero" />
           <div className="socials">
             <a
-              href="https://www.linkedin.com/in/ogenyi25"
+              href="https://www.linkedin.com/in/uiuxotor"
               rel="noreferrer"
               target="_blank"
             >
@@ -57,7 +57,7 @@ const Home = () => {
               <img className="icon" src={Instagram} alt="social-links" />
             </a>
             <a
-              href="https://www.behance.net/johnotor"
+              href="https://www.behance.net/uiuxotor"
               rel="noreferrer"
               target="_blank"
             >
